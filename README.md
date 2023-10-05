@@ -31,6 +31,7 @@ Reemplaza los valores con tus credenciales de API.
 
 
 Ejecución
+
 Para ejecutar el chatbot, simplemente ejecuta el script:
 python search-hotels.py  
  
@@ -40,6 +41,7 @@ Una vez que el chatbot se esté ejecutando, se lanzará una interfaz de Gradio e
 El chatbot procesará los mensajes y devolverá información de hoteles relevantes basada en las solicitudes de búsqueda cuando el usuario lo solicite.
 
 Funciones
+
 El archivo hotel.py contiene las siguientes funciones:
 search_hotels(): Busca hoteles en función de los parámetros proporcionados, como ubicación, precio máximo y características deseadas.
 format_hotel_info(): Devuelve el resultado de los hoteles encontrados en formato texto para poder mostrar en el chatbot la información legible.
